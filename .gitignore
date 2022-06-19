@@ -1,0 +1,40 @@
+# compiled output
+bootcamps/@imersão8/nestjs-clean-arch/dist
+bootcamps/@imersão8/typescript-clean-arch/dist
+bootcamps/@imersão8/nestjs-clean-arch/node_modules
+bootcamps/@imersão8/typescript-clean-arch/node_modules
+
+# Logs
+bootcamps/@imersão8/nestjs-clean-arch/logs
+bootcamps/@imersão8/nestjs-clean-arch/*.log
+bootcamps/@imersão8/nestjs-clean-arch/npm-debug.log*
+bootcamps/@imersão8/nestjs-clean-arch/pnpm-debug.log*
+bootcamps/@imersão8/nestjs-clean-arch/yarn-debug.log*
+bootcamps/@imersão8/nestjs-clean-arch/yarn-error.log*
+bootcamps/@imersão8/nestjs-clean-arch/lerna-debug.log*
+
+# OS
+bootcamps/@imersão8/nestjs-clean-arch/.DS_Store
+
+# Tests
+bootcamps/@imersão8/nestjs-clean-arch/coverage
+bootcamps/@imersão8/nestjs-clean-arch/.nyc_output
+
+# IDEs and editors
+bootcamps/@imersão8/nestjs-clean-arch/.idea
+bootcamps/@imersão8/nestjs-clean-arch/.project
+bootcamps/@imersão8/nestjs-clean-arch/.classpath
+bootcamps/@imersão8/nestjs-clean-arch/.c9/
+bootcamps/@imersão8/nestjs-clean-arch/*.launch
+bootcamps/@imersão8/nestjs-clean-arch/.settings/
+bootcamps/@imersão8/nestjs-clean-arch/*.sublime-workspace
+
+# IDE - VSCode
+bootcamps/@imersão8/nestjs-clean-arch/.vscode/*
+bootcamps/@imersão8/nestjs-clean-arch/!.vscode/settings.json
+bootcamps/@imersão8/nestjs-clean-arch/!.vscode/tasks.json
+bootcamps/@imersão8/nestjs-clean-arch/!.vscode/launch.json
+bootcamps/@imersão8/nestjs-clean-arch/!.vscode/extensions.json
+
+# Extensions
+.history
