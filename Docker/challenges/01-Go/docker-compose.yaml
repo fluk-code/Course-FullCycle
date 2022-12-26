@@ -1,0 +1,12 @@
+version: "3"
+services:
+  go: 
+    image: flukcode/go:challeng
+    build:
+      context: .
+    networks:
+      - go-network
+
+networks:
+  go-network:
+    driver: bridge
