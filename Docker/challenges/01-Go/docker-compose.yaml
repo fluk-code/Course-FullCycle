@@ -1,7 +1,7 @@
 version: "3"
 services:
   go: 
-    image: flukcode/go:challeng
+    image: ferreirafelipe/go:challeng
     build:
       context: .
     networks:

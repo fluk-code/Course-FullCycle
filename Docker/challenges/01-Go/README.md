@@ -28,3 +28,5 @@ cd Docker/challenges/01-Go
 
 docker-compose up -d
 ```
+
+[Imagem Docker Hub](https://hub.docker.com/repository/docker/ferreirafelipe/go)
