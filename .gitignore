@@ -38,3 +38,9 @@ bootcamps/@imersão8/nestjs-clean-arch/!.vscode/extensions.json
 
 # Extensions
 .history
+
+#Courses
+## Docker
+Docker/challenges/02-nginx-node-mysql/node/node_modules
+Docker/challenges/02-nginx-node-mysql/mysql/data/*
+!Docker/challenges/02-nginx-node-mysql/mysql/data/.gitkeep

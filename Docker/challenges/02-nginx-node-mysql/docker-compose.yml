@@ -1,0 +1,51 @@
+version: '3.7'
+
+services:
+  nginx:
+    build:
+      context: ./nginx
+    container_name: nginx
+    restart: always
+    ports: 
+      - '8080:80'
+    depends_on:
+      - node
+    networks:
+      - challenge-network
+  
+  node:
+    container_name: node
+    restart: always
+    ports:
+      - '3000:3000'
+    build:
+      context: ./node
+    depends_on:
+      - mysql
+    networks:
+      - challenge-network
+
+  mysql:
+    build: 
+      context: ./mysql
+    container_name: mysql
+    ports:
+      - '3306:3306'
+    restart: always
+    tty: true
+    networks:
+      - challenge-network
+    volumes:
+      - challenge-docker-db:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=challenge
+      - MYSQL_ROOT_PASSWORD=mysql
+      - MYSQL_PASSWORD=mysql
+      - MYSQL_USER=mysql
+
+networks:
+  challenge-network:
+    driver: bridge
+
+volumes:
+  challenge-docker-db:
